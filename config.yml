@@ -14,19 +14,18 @@ menu:
         - name: Papers
           url: papers/
           weight: 1
-        - name: Courses
-          url: courses/
-          weight: 2
-        - name: Data
-          url: data/
-          weight: 3 
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
-          weight: 4
+        # - name: Courses
+        #   url: courses/
+        #   weight: 2
+        # - name: Data
+        #   url: data/
+        #   weight: 3 
+        # - name: Newsletter
+        #   url: https://pmichaillat.substack.com
+        #   weight: 4
 
 params:
-    description: "I am a Professor of Subject at the University of Place. My research covers various topics.
-consequat."
+    description: "PhD at EPFL"
     author: Name
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -50,44 +49,40 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Adam R. swietek
-          subtitle: "PhD at EPFL"
+          title: Adam R. Swietek
+          subtitle: "PhD at EPFL. "
           imageUrl: "headshot.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          imageTitle: Prof. Name
+          imageWidth: 280
+          imageHeight: 280
+          imageTitle: Adam R. Swietek
           buttons:
             - name: Papers
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Newsletter
-              url: https://pmichaillat.substack.com
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
+            # - name: Courses
+            #   url: courses/
+            # - name: Data
+            #   url: data/
+            # - name: Archive
+            #   url: archive/
     socialIcons:
-        - name: CV
-          url: cv.pdf
+        # - name: CV
+        #   url: cv.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
+          url: mailto:adam.swietek@epfl.ch
         - name: Location
           url: location/
-        - name: Office Hours
-          url: officehours/
+        # - name: Office Hours
+        #   url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+          url: https://scholar.google.com/citations?user=m64YRz0AAAAJ&hl=en
+        # - name: YouTube
+        #   url: https://www.youtube.com/@pmichaillat
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
+          url: https://github.com/AdamSwietek
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
         - name: Twitter
-          url: https://twitter.com/pmichaillat
+          url: https://twitter.com/aswietek
 
     assets:
         disableHLJS: true
@@ -96,7 +91,7 @@ consequat."
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Prof. Name"
+      text: "Adam R. Swietek"
       icon: favicon.ico
       iconHeight: 18
 
