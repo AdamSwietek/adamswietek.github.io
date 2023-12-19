@@ -5,24 +5,23 @@
     <link>https://adamswietek.github.io/papers/</link>
     <description>Recent content in Papers on Adam R. Swietek</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://adamswietek.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://adamswietek.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Paper Title 2</title>
+      <title>Automated Design Appraisal</title>
       <link>https://adamswietek.github.io/papers/paper2/</link>
-      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://adamswietek.github.io/papers/paper2/</guid>
-      <description>This paper shows other things. Published in Journal Name, 2015.</description>
+      <description>This work represents the first-time financial valuation is integrated within architectural design evaluation. In review</description>
     </item>
     
     <item>
-      <title>Paper Title 1</title>
+      <title>Visual Capital</title>
       <link>https://adamswietek.github.io/papers/paper1/</link>
-      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://adamswietek.github.io/papers/paper1/</guid>
-      <description>This paper shows things. Published in Journal Name, 2012.</description>
+      <description>This paper introduces a viewpoint visual share simulation, view-metrics, and a novel index Visual Capital. Published in Landscape and Urban Planning, Dec 2023.</description>
     </item>
     
   </channel>
