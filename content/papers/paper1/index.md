@@ -50,6 +50,7 @@ Swietek, A. R. & Zumwald, M. Visual Capital: Evaluating building-level visual la
 	title = {Visual Capital: Evaluating building-level visual landscape quality at scale},
 	volume = {240},
 	year = {2023},
+}
 
 ```
 
