@@ -9,9 +9,9 @@ cover:
     image: "fig2.png"
     alt: "Image caption"
     relative: false
-# editPost:
-#     URL: "https://doi.org/10.1016/j.landurbplan.2023.104880"
-#     Text: "Other Journal Name"
+editPost:
+    URL: "http://dx.doi.org/10.2139/ssrn.4670069"
+    Text: "In-Review. SSRN"
 
 ---
 
@@ -19,7 +19,8 @@ cover:
 
 ##### Download
 
-+ [Paper](https://www.dropbox.com/preview/PhD/working_papers_shared/ADA_manuscript.pdf)
++ [WP](https://www.dropbox.com/preview/PhD/working_papers_shared/ADA_manuscript.pdf)
++ [Paper, pre-print](http://dx.doi.org/10.2139/ssrn.4670069)
 <!-- + [Online appendix](appendix2.pdf) -->
 <!-- + [Code and data](https://github.com/pmichaillat/unemployment-gap) -->
 
@@ -33,31 +34,30 @@ Financial criteria in architectural design evaluation are limited to cost perfor
 
 ---
 
-##### Figure X: Figure caption
+##### Figure 6: Figure caption
 
 ![](fig6.png)
 
 <!-- ---
 
-##### Citation
+<!-- ##### Citation -->
 
-Author 1 and Author 2. Year. "Title." *Journal* Volume (Issue): First page–Last page. https://doi.org/paper_doi.
+Swietek, Adam, Automated Design Appraisal: Estimating Real Estate Price Growth and Value at Risk Due to Local Development. Available at SSRN: https://ssrn.com/abstract=4670069 or http://dx.doi.org/10.2139/ssrn.4670069
 
 ```BibTeX
 @article{AAYY,
-author = {Author 1 and Author 2},
-doi = {paper_doi},
-journal = {Journal},
+author = {Adam R Swietek},
+doi = {10.2139/ssrn.4670069},
+journal = {SSRN},
+title ={Automated Design Appraisal: Estimating Real Estate Price Growth and Value at Risk Due to Local Development.},
+year = {2023}}
+``` 
+
+<!-- ---
 number = {Issue},
 pages = {XXX--YYY},
-title ={Title},
 volume = {Volume},
-year = {Year}}
-``` -->
-
----
-
 ##### Related material
 
-+ [Lecture Presentation](https://youtu.be/o8qmGErEjCQ?si=abJYgBgNjCpOQZuO&t=69)
++ [Lecture Presentation](https://youtu.be/o8qmGErEjCQ?si=abJYgBgNjCpOQZuO&t=69) -->
 
