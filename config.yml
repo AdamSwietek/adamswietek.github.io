@@ -11,12 +11,15 @@ taxonomies:
 
 menu:
     main:
-        - name: Papers
+        - name: Research
           url: papers/
           weight: 1
-        # - name: Courses
-        #   url: courses/
-        #   weight: 2
+        - name: Profile
+          url: profile/
+          weight: 2
+        - name: CV
+          url: cv/
+          weight: 3
         # - name: Data
         #   url: data/
         #   weight: 3 
@@ -50,14 +53,28 @@ params:
     profileMode:
           enabled: true
           title: Adam R. Swietek
-          subtitle: "PhD at EPFL. "
+          subtitle: >-
+            I explore environmental externalities in cities. Combining
+            spatial modeling, urban economics, and computational design, I examine how
+            amenities and risks are produced, distributed, and priced within existing
+            urban form—and assess the impacts of planned interventions and environmental
+            shocks on communities and property markets. My work evaluates how zoning,
+            planning, and building codes can mitigate externalities and protect people
+            and assets, while exploring novel financial mechanisms to insure and hedge
+            residual risk.
           imageUrl: "headshot.jpeg"
           imageWidth: 280
           imageHeight: 280
           imageTitle: Adam R. Swietek
           buttons:
-            - name: Papers
+            - name: Job Market Paper
+              url: papers/paper3/
+            - name: Research
               url: papers/
+            - name: Teaching & Mentoring
+              url: profile/#teaching-and-mentoring
+            - name: Profile
+              url: profile/
             # - name: Courses
             #   url: courses/
             # - name: Data
@@ -68,7 +85,7 @@ params:
         # - name: CV
         #   url: cv.pdf
         - name: Email
-          url: mailto:adam.swietek@epfl.ch
+          url: mailto:swietek@usc.edu
         - name: Location
           url: location/
         # - name: Office Hours

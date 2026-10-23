@@ -1,0 +1,39 @@
+.cv-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 0 0 1rem;
+}
+
+.cv-actions a {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.45rem 0.8rem;
+    text-decoration: none;
+}
+
+.cv-actions a:hover {
+    background: var(--code-bg);
+}
+
+.cv-frame {
+    display: block;
+    width: 100%;
+    height: min(78vh, 920px);
+    min-height: 620px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--code-bg);
+}
+
+.cv-fallback {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+    .cv-frame {
+        height: 72vh;
+        min-height: 480px;
+    }
+}
