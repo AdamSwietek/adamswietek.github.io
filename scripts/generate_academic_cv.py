@@ -8,6 +8,8 @@ from reportlab.lib.enums import TA_LEFT, TA_RIGHT
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (
     BaseDocTemplate,
     Frame,
@@ -24,6 +26,28 @@ from reportlab.platypus import (
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "output" / "pdf" / "adam-swietek-academic-cv.pdf"
 WEBSITE_COPY = ROOT / "static" / "cv.pdf"
+
+BASKERVILLE_COLLECTION = Path("/System/Library/Fonts/Supplemental/Baskerville.ttc")
+BASKERVILLE_REGULAR = "Baskerville"
+BASKERVILLE_SEMIBOLD = "Baskerville-Semibold"
+
+if not BASKERVILLE_COLLECTION.exists():
+    raise FileNotFoundError(
+        "Baskerville is required to generate the CV but was not found at "
+        f"{BASKERVILLE_COLLECTION}"
+    )
+
+pdfmetrics.registerFont(TTFont(BASKERVILLE_REGULAR, BASKERVILLE_COLLECTION, subfontIndex=0))
+pdfmetrics.registerFont(TTFont(BASKERVILLE_SEMIBOLD, BASKERVILLE_COLLECTION, subfontIndex=4))
+pdfmetrics.registerFont(TTFont("Baskerville-Italic", BASKERVILLE_COLLECTION, subfontIndex=2))
+pdfmetrics.registerFont(TTFont("Baskerville-SemiboldItalic", BASKERVILLE_COLLECTION, subfontIndex=5))
+pdfmetrics.registerFontFamily(
+    BASKERVILLE_REGULAR,
+    normal=BASKERVILLE_REGULAR,
+    bold=BASKERVILLE_SEMIBOLD,
+    italic="Baskerville-Italic",
+    boldItalic="Baskerville-SemiboldItalic",
+)
 
 NAVY = colors.HexColor("#17324D")
 MID = colors.HexColor("#566575")
@@ -51,7 +75,7 @@ class CVDocTemplate(BaseDocTemplate):
         canvas.setStrokeColor(LIGHT)
         canvas.setLineWidth(0.5)
         canvas.line(doc.leftMargin, 0.49 * inch, letter[0] - doc.rightMargin, 0.49 * inch)
-        canvas.setFont("Helvetica", 8)
+        canvas.setFont(BASKERVILLE_REGULAR, 8)
         canvas.setFillColor(MID)
         canvas.drawString(doc.leftMargin, 0.32 * inch, "Adam R. Swietek")
         canvas.drawRightString(letter[0] - doc.rightMargin, 0.32 * inch, str(doc.page))
@@ -63,7 +87,7 @@ styles = getSampleStyleSheet()
 name_style = ParagraphStyle(
     "Name",
     parent=styles["Normal"],
-    fontName="Helvetica-Bold",
+    fontName=BASKERVILLE_SEMIBOLD,
     fontSize=22,
     leading=25,
     textColor=NAVY,
@@ -73,7 +97,7 @@ name_style = ParagraphStyle(
 role_style = ParagraphStyle(
     "Role",
     parent=styles["Normal"],
-    fontName="Helvetica",
+    fontName=BASKERVILLE_REGULAR,
     fontSize=10.5,
     leading=14,
     textColor=TEXT,
@@ -83,7 +107,7 @@ role_style = ParagraphStyle(
 contact_style = ParagraphStyle(
     "Contact",
     parent=styles["Normal"],
-    fontName="Helvetica",
+    fontName=BASKERVILLE_REGULAR,
     fontSize=8.7,
     leading=12,
     textColor=MID,
@@ -93,7 +117,7 @@ contact_style = ParagraphStyle(
 section_style = ParagraphStyle(
     "Section",
     parent=styles["Heading2"],
-    fontName="Helvetica-Bold",
+    fontName=BASKERVILLE_SEMIBOLD,
     fontSize=10.2,
     leading=12,
     textColor=NAVY,
@@ -106,7 +130,7 @@ section_style = ParagraphStyle(
 body_style = ParagraphStyle(
     "Body",
     parent=styles["Normal"],
-    fontName="Helvetica",
+    fontName=BASKERVILLE_REGULAR,
     fontSize=8.7,
     leading=11.3,
     textColor=TEXT,
@@ -124,7 +148,7 @@ small_style = ParagraphStyle(
 date_style = ParagraphStyle(
     "Date",
     parent=body_style,
-    fontName="Helvetica-Bold",
+    fontName=BASKERVILLE_SEMIBOLD,
     fontSize=8.2,
     leading=11,
     textColor=NAVY,
