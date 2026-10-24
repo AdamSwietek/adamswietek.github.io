@@ -5,6 +5,10 @@ tags: ["urban-wildfire", "wildfire-risk", "building-performance", "spatial-analy
 author: ["Adam Swietek"]
 description: "This preprint measures how structure-to-structure exposure shapes urban wildfire destruction and evaluates the effects of structure-defense actions across the 2025 Los Angeles fires."
 summary: "Using LiDAR-derived building meshes and post-fire assessments for 24,771 exposed structures, this paper estimates when structure-to-structure exposure drives self-sustained urban wildfire spread and identifies at-risk communities across California."
+cover:
+    image: "wildfire-connectivity.png"
+    alt: "Map of structure-to-structure connectivity within the wildland-urban interface across Los Angeles County"
+    relative: true
 editPost:
     URL: "https://doi.org/10.2139/ssrn.7590400"
     Text: "Preprint. SSRN, October 2026"

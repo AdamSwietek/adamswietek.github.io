@@ -71,8 +71,6 @@ params:
               url: papers/paper3/
             - name: Research
               url: papers/
-            - name: Teaching & Mentoring
-              url: profile/#teaching-and-mentoring
             - name: Profile
               url: profile/
             # - name: Courses
