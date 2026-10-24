@@ -29,6 +29,30 @@ Urban megafires cause catastrophic and enduring losses, as burning structures ex
 
 ---
 
+##### Selected figures
+
+![Urban depth and shared neighborhood loss across the Eaton and Palisades fires](urban-depth.png)
+
+*Figure 1. Urban depth and shared neighborhood loss across the Eaton and Palisades fires.*
+
+![Measures of geometric coupling and their relationship to structure damage](geometric-coupling.png)
+
+*Figure 2. Geometric coupling between structures and its relationship to complete destruction and partial damage.*
+
+![Building connectivity and recorded defensive actions across the Santa Monica Mountains](fire-connectivity-details.png)
+
+*Building connectivity across the Santa Monica Mountains and recorded defensive actions in the Palisades and Eaton fires.*
+
+![Mapped wildland-urban-interface building connectivity across Los Angeles County](wildfire-connectivity.png)
+
+*Connectivity within the mapped wildland-urban interface across Los Angeles County.*
+
+![California building connectivity across fire-hazard and wildland-urban-interface contexts](california-connectivity.png)
+
+*California building connectivity across fire-hazard severity and wildland-urban-interface contexts.*
+
+---
+
 ##### Citation
 
 Swietek, Adam. “Structure-to-Structure Connectivity and Urban Wildfire Destruction Risk in California.” SSRN (2026). https://doi.org/10.2139/ssrn.7590400
