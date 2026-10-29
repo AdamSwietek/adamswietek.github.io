@@ -262,7 +262,7 @@ story.append(Paragraph(
 
 story.append(section("Publications and preprints"))
 story.append(Paragraph(
-    f'<b>Swietek, A. R.</b> (2026). "{link("Structure-to-Structure Connectivity and Urban Wildfire Destruction Risk in California", "https://doi.org/10.2139/ssrn.7590400")}." SSRN preprint.',
+    f'<b>Swietek, A. R.</b> (2026). "{link("Structure-to-Structure Connectivity and Urban Wildfire Destruction Risk in California", "https://doi.org/10.2139/ssrn.7590400")}." SSRN preprint; under review at <i>Nature Cities</i>.',
     publication_style,
 ))
 story.append(Paragraph(
